@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@import './styles/theme1.css';
+@import './styles/theme2.css';
+@import './styles/theme3.css';
+
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

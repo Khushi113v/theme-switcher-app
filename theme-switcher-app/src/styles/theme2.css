@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+.theme2 {
+  @apply bg-gray-900 text-white;
+  font-family: 'Merriweather', serif;
+}
+
+.theme2 .header {
+  @apply bg-gray-900/80 shadow-lg border-b border-gray-700;
+}
+
+.theme2 .main-content {
+  @apply w-full max-w-5xl mx-auto p-8 rounded-xl shadow-2xl bg-gray-800/90;
+}
+
+.theme2 .title {
+  @apply text-3xl sm:text-4xl font-bold mb-8 text-white drop-shadow-md;
+}
+
+.theme2 .paragraph {
+  @apply text-base sm:text-lg leading-relaxed text-gray-200 p-6;
+}
+
+.theme2 .button {
+  @apply bg-green-500 text-white px-3 py-1.5 text-sm rounded-md hover:bg-green-600 transition-colors;
+}
+
+.theme2 .card {
+  @apply bg-gray-900/80 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow;
+}
+
+.theme2 .list {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
+.theme2 .price-label {
+  @apply bg-gray-700/80 px-3 py-1 rounded-md;
+}
+
+.theme2 .image-container {
+  @apply bg-transparent w-32 h-32 flex items-center justify-center mb-4 rounded-md;
+}

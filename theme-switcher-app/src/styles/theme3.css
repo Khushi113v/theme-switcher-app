@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.theme3 {
+  @apply bg-gradient-to-r from-purple-500 to-pink-500 text-gray-900;
+  font-family: 'Pacifico', cursive;
+}
+
+.theme3 .header {
+  @apply bg-gradient-to-r from-purple-500/80 to-pink-500/80 shadow-lg border-b border-purple-300;
+}
+
+.theme3 .main-content {
+  @apply w-full max-w-5xl mx-auto p-8 rounded-xl shadow-2xl bg-gradient-to-b from-purple-400/90 to-pink-400/90;
+}
+
+.theme3 .title {
+  @apply text-4xl sm:text-5xl mb-8 text-gray-900 font-extrabold drop-shadow-md;
+}
+
+.theme3 .paragraph {
+  @apply text-lg sm:text-2xl leading-relaxed text-gray-800  p-6 ;
+}
+
+.theme3 .button {
+  @apply bg-yellow-400 text-gray-900 px-3 py-1.5 text-sm rounded-md hover:bg-yellow-500 transition-colors;
+}
+
+.theme3 .card {
+  @apply bg-purple-400/80 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow;
+}
+
+.theme3 .list {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
+.theme3 .price-label {
+  @apply bg-purple-300/80 px-3 py-1 rounded-md;
+}
+
+.theme3 .image-container {
+  @apply bg-transparent w-32 h-32 flex items-center justify-center mb-4 rounded-md;
+}
