@@ -23,8 +23,8 @@ Version Control: Git, GitHub
 
 Installation
 
-Clone the Repository:git clone https://github.com/your-username/theme-switcher.git
-cd theme-switcher
+Clone the Repository:git clone https://github.com/Khushi113v/theme-switcher-app.git
+cd theme-switcher-app
 
 
 Install Dependencies:npm install
